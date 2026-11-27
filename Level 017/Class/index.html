@@ -1,0 +1,74 @@
+<!--1) შექმენით ჰაკათონის სარეგისტრაციო გვერდზე, რომელზეც დაამატეთ სურათსაც, სათაურსაც და მისცემთ ოფიციალურ სახეს. ფორმაში უნდა იყოს კითხვები ყავს თუ არა მონაწილეს უკვე გუნდი, რამდენ წევრიანი, აქვს თუ არა გამოცდილება და მსგავსი შეკითხვები. მინიუმ იყოს 6 input-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>GOA [Goal-Oriented-Academy] "Hackathon" Registration Page!</h1>
+    <img src="Pictures/image.png" width="200" height="200">
+    <hr>
+    <form>
+        <label for="First_Name">First Name: </label>
+        <input id="First_Name" type="text" required><br><br>
+
+        <label for="Last_Name">Last Name: </label>
+        <input id="Last_Name" type="text" required><br><br>
+
+        <label for="Password">Password: </label>
+        <input id="Password" type="password" required><br><br>
+
+        <label for="email">Email: </label>
+        <input id="email" type="email" required><br><br>
+
+        <label for="telephone_number">Telephone Number: </label>
+        <input id="telephone_number" type="number" required><br><br>
+
+        <label for="date_of_birth">Date Of Birth: </label>
+        <input id="date_of_birth" type="date" required><br><br>
+
+        <label>Gender</label><br><br>
+        <label for="Male">Male</label>
+        <input id="Male" name="gender" value="Male" type="radio">
+        <label for="Female">Female</label>
+        <input id="Female" name="gender" value="Female" type="radio">
+        <label for="Other">Other</label>
+        <input id="Other" name="gender" value="Other" type="radio"><br><br>
+
+        <label for="Reason">The Reason On Why You Want To Enter This Competition</label>
+        <input id="Reason" type="text" required><br><br>
+
+        <label for="Level">How Many Levels Did You Complete In <a href="https://www.facebook.com/nika11keshelava/">GOA</a></label>
+        <input id="Level" type="number" required><br><br>
+
+        <label for="Programming_Languages">What Programming languages do you know?</label><br><br>
+        <input id="Programming_Languages" type="checkbox">
+        <label id="Programming_Languages">Python</label><br><br>
+        <input id="Programming_Languages" type="checkbox">
+        <label id="Programming_Languages">Java</label><br><br>
+        <input id="Programming_Languages" type="checkbox">
+        <label id="Programming_Languages">Javascript</label><br><br>
+
+        <label for="Members">How Many Members Are Their In your Group?</label>
+        <input id="Members" type="number" placeholder="1-10" required><br><br>
+
+        <label>Do You Have Experience?</label><br><br>
+        <label for="Yes">Yes</label>
+        <input id="Yes" name="Experience" value="Yes" type="radio">
+        <label for="No">No</label>
+        <input id="No" name="Experience" value="No" type="radio"><br><br>
+
+        <label for="Chad"><b>MOST IMPORTANT!</b></label><br><br>
+        <label>Are you a chad?</label>
+
+        <input type="checkbox" id="chad"><br><br>
+
+        <input type="reset"><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>

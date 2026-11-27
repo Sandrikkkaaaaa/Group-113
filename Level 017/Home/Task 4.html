@@ -1,0 +1,27 @@
+<!--5) შექმენით ფორმა, რომელშიც მომხმარებელი Radio Button-ების გამოყენებით აირჩევს სქესს, ხოლო Checkbox-ის გამოყენებით დაეთანხმება წესებსა და პირობებს. გამოიყენეთ 'name', 'value' და 'required' ატრიბუტები ისე, რომ მომხმარებელმა არჩევანის გაკეთებისა და პირობებზე დათანხმების გარეშე ფორმის გაგზავნა ვერ შეძლოს.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+            <label>Gender</label><br><br>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender">
+            <label for="Other">Other</label>
+            <input type="radio" id="Other" name="Gender"><br><br>
+
+            <label for="terms">Terms & Conditions</label>
+            <input id="terms" type="checkbox" name="terms" required><br><br>
+
+            <input type="submit">
+    </form>
+</body>
+</html>
